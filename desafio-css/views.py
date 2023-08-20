@@ -24,7 +24,7 @@ def index(request):
 
         return build_response(code=303, reason='See Other', headers='Location: /')
 
-    note_template = load_template("components/note.html")
+    note_template = load_template("components\note.html")
     notes_li = [
         note_template.format(title=dados['titulo'], details=dados['detalhes'])
         for dados in load_data('notes.json')
