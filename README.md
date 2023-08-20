@@ -1,1 +1,5 @@
-# tecweb-proj1-ptA
+# Desafio CSS
+
+## Integrantes:
+
+### Ilana Finger e Ananda Campelo
