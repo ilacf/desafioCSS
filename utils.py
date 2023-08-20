@@ -10,7 +10,7 @@ def load_data(file):
     return json.loads(read_file(f"data/{file}"))
 
 def load_template(file):
-    return open(f"templates/{file}", 'r', encoding='utf-8').read()
+    return open(f"docs/{file}", 'r', encoding='utf-8').read()
 
 def add_note(note):
     lista = load_data('notes.json')
