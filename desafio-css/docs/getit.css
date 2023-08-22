@@ -149,6 +149,7 @@ body {
   justify-content: space-around;
   padding: 1rem;
   width: 12rem;
+  height: 6rem;
   border-radius: 0.3rem;
   margin: 0.2px;
 }
@@ -175,4 +176,5 @@ body {
   padding-top: 0.5rem;
   padding-right: 0.3rem;
   justify-content: center;
+  align-items: center;
 }
