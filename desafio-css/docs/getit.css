@@ -133,6 +133,7 @@ body {
   font-family: 'Roboto', sans-serif;
   padding-top: 0.3rem;
   padding-left: 0.3rem;
+  resize: none;
 }
 
 .card-container{
