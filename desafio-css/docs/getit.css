@@ -138,7 +138,7 @@ body {
 .card-container{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   margin: 0 40px 0 40px;
 }
@@ -151,7 +151,72 @@ body {
   width: 12rem;
   height: 6rem;
   border-radius: 0.3rem;
-  margin: 0.2px;
+  margin: 10px;
+  box-shadow: 0 5px 7px #9c9c9c;
+}
+
+.card-color-1{
+  background-color: #ead3a7;
+}
+
+.card-color-2{
+  background-color: #9de0f5;
+}
+
+.card-color-3{
+  background-color: #ef89ba;
+}
+
+.card-color-4{
+  background-color: #fae890;
+}
+
+.card-color-5{
+  background-color: #abe9c1;
+}
+
+.card-rotation-1{
+  rotate: -3.5deg;
+}
+
+.card-rotation-2{
+  rotate: -2.5deg;
+}
+
+.card-rotation-3{
+  rotate: -1.5deg;
+}
+
+.card-rotation-4{
+  rotate: 3.5deg;
+}
+
+.card-rotation-5{
+  rotate: 4deg;
+}
+
+.card-rotation-6{
+  rotate: -4deg;
+}
+
+.card-rotation-7{
+  rotate: 2.5deg;
+}
+
+.card-rotation-8{
+  rotate: -2deg;
+}
+
+.card-rotation-9{
+  rotate: 3deg;
+}
+
+.card-rotation-10{
+  rotate: -3deg;
+}
+
+.card-rotation-11{
+  rotate: 2deg;
 }
 
 .card-title{
